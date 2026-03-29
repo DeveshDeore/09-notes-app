@@ -15,7 +15,6 @@ function App() {
     const copyTask = [...task];
     copyTask.push({ title, details})
     setTask(copyTask)
-
     setTitle('')
     setDetails('')
   };
