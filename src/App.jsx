@@ -70,7 +70,7 @@ function App() {
                   key={idx}
                   className="flex justify-between flex-col items-start relative h-52 w-40 text-black bg-cover rounded-xl pt-9 pb-4 px-4 bg-[url('https://static.vecteezy.com/system/resources/thumbnails/010/793/873/small/a-lined-note-paper-covered-with-transparent-tape-on-a-yellow-background-with-a-white-checkered-pattern-free-png.png')]"
                 >
-                  <div>
+                  <div className=" overflow-auto">
                     <h3 className="leading-tight text-xl font-bold">
                       {elem.title}
                     </h3>
